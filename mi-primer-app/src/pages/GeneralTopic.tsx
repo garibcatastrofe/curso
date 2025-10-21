@@ -24,7 +24,7 @@ export function GeneralTopic({ topic }: { topic: TopicLink }) {
         </div>
       ) : (
         <div className="flex-1 h-[calc(100vh-5rem)] overflow-y-auto overflow-x-hidden p-10 scrollbar-custom">
-          <h3 className="text-6xl font-extralight text-start ">{topic.title}</h3>
+          <h3 className="mb-6 text-6xl font-extralight text-start">{topic.title}</h3>
           {topic.topicsArray.map((t, i) => (
             <GTopic
               key={i}

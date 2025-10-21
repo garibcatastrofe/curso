@@ -1,4 +1,7 @@
 import { TopicLink } from "../types/TopicLink";
+import img1 from "../assets/img1.png";
+import img2 from "../assets/img2.png";
+import img3 from "../assets/img3.jpg";
 
 export const infoTemario: TopicLink[] = [
   {
@@ -13,8 +16,18 @@ export const infoTemario: TopicLink[] = [
       {
         name: "¿Qué es React?",
         description: "React es una biblioteca...",
-        urlImage: "NotFound"
-      }
+        urlImage: img1,
+      },
+      {
+        name: "¿Qué es React?",
+        description: "React es una biblioteca...",
+        urlImage: img2,
+      },
+      {
+        name: "¿Qué es React?",
+        description: "React es una biblioteca...",
+        urlImage: img3,
+      },
     ],
   },
   {
