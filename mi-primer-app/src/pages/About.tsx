@@ -9,7 +9,7 @@ export function About() {
       <div className="flex w-1/2 gap-10 h-fit">
         <Card
           name="Ivan López"
-          description="Tecnico Superior Universiario en Desarrollo de Software Multiplataforma y practicante de Ingenieria en Belden."
+          description="Practicante de Ingeniería en Belden"
           imageUrl={ivan}
         />
         <Card
