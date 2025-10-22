@@ -8,6 +8,7 @@ import { NavItem } from "../components/Navbar/NavItem";
 import { Home } from "../pages/Home";
 import { About } from "../pages/About";
 import { Temario } from "../pages/Temario";
+import { TaskManager } from '../pages/TaskManager'
 import { NotFound } from "../pages/NotFound";
 
 /* GENERAL */
@@ -21,6 +22,7 @@ const Layout: React.FC = () => {
         <NavItem to="/" text="Inicio" />
         <NavItem to="/about" text="Sobre nosotros" />
         <NavItem to="/temario/" text="Temario" />
+        <NavItem to="/taskManager" text="Task Manager" />
       </NavBar>
 
       {/* RUTAS */}
@@ -35,6 +37,9 @@ const Layout: React.FC = () => {
             <Route key={index} path={topic.link} element={<GeneralTopic topic={topic}/>} />
           ))}
         </Route>
+
+        {/* TASK MANAGER */}
+        <Route path="/taskManager" element={<TaskManager />} />
 
         {/* NOT FOUND */}
         <Route path="/*" element={<NotFound />} />
