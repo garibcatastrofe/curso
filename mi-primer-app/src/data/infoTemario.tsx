@@ -50,31 +50,67 @@ export const infoTemario: TopicLink[] = [
     ],
   },
   {
-    title: "Sintaxis Básica de JavaScript (JSX)",
+    title: "JSX (JavaScript XML)",
+    link: "jsxIntroduction",
+    topicsArray: [
+      {
+        name: "¿Qué es JSX?",
+        description:
+          "JSX es una extensión de sintaxis para JavaScript que permite escribir código similar a HTML dentro de archivos JavaScript. Facilita la creación de componentes visuales en React.",
+        urlImage: "NotFound",
+      },
+    ],
+  },
+  {
+    title: "Sintaxis Básica de JavaScript",
     link: "jsx",
     topicsArray: [
       {
-        name: "Introducción a JSX",
+        name: "¿Qué es JavaScript?",
         description:
-          "JSX es una extensión de JavaScript que permite escribir código similar a HTML dentro de React. Al final, JSX se transforma en llamadas a `React.createElement()`.",
+          "JavaScript es un lenguaje de programación interpretado, orientado a objetos y basado en prototipos, que se utiliza principalmente para el desarrollo web. Permite crear páginas web interactivas y dinámicas al ejecutarse en el navegador del usuario.",
         urlImage: "NotFound",
       },
       {
-        name: "Variables y constantes en JSX",
+        name: "Variables y constantes",
         description:
-          "En JSX puedes interpolar variables y constantes de JavaScript dentro de llaves `{}` para mostrar valores dinámicos o resultados de funciones.",
+          "En JavaScript, las variables se declaran con `var`, `let` o `const`. `let` y `const` son las formas modernas de declarar variables, donde `const` se usa para valores que no cambian y `let` para valores que pueden cambiar.",
         urlImage: "NotFound",
       },
       {
-        name: "Condiciones y bucles en JSX",
+        name: "Condiciones y bucles",
         description:
-          "Se pueden usar expresiones condicionales y funciones como `map()` para renderizar listas o mostrar contenido condicionalmente.",
+          "JavaScript utiliza estructuras de control como `if`, `else`, `switch` para condiciones, y `for`, `while`, `do...while` para bucles, permitiendo ejecutar código de manera condicional o repetitiva.",
         urlImage: "NotFound",
       },
       {
-        name: "Objetos y arreglos en JSX",
+        name: "Objetos y arreglos",
         description:
-          "JSX permite trabajar con estructuras de datos como objetos y arreglos para crear vistas dinámicas en función de datos complejos.",
+          "Los objetos son colecciones de pares clave-valor, mientras que los arreglos son listas ordenadas de valores. Ambos son fundamentales para manejar datos en JavaScript.",
+        urlImage: "NotFound",
+      },
+    ],
+  },
+  {
+    title: "Typescript Básico",
+    link: "typescriptBasic",
+    topicsArray: [
+      {
+        name: "¿Qué es?",
+        description:
+          "TypeScript es un superconjunto de JavaScript que añade tipado estático y otras características avanzadas. Permite detectar errores en tiempo de compilación y mejorar la calidad del código.",
+        urlImage: "NotFound",
+      },
+      {
+        name: "Tipos de datos",
+        description:
+          "TypeScript introduce tipos de datos como `string`, `number`, `boolean`, `array`, `tuple`, `enum`, y `any`, permitiendo una mejor validación y autocompletado en los editores.",
+        urlImage: "NotFound",
+      },
+      {
+        name: "Interfaces y tipos personalizados",
+        description:
+          "Las interfaces permiten definir la forma de un objeto, mientras que los tipos personalizados (`type`) ofrecen una forma más flexible de definir estructuras de datos complejas.",
         urlImage: "NotFound",
       },
     ],
@@ -93,6 +129,12 @@ export const infoTemario: TopicLink[] = [
         name: "Hook useState",
         description:
           "`useState` es un hook que permite agregar y manipular estados dentro de componentes funcionales. Es la base del manejo de datos dinámicos en React.",
+        urlImage: "NotFound",
+      },
+      {
+        name: "Hook UseEffect",
+        description:
+          "`useEffect` es un hook que permite manejar efectos secundarios en componentes, como llamadas a APIs, suscripciones o modificaciones del DOM después de renderizados.",
         urlImage: "NotFound",
       },
       {
@@ -117,7 +159,8 @@ export const infoTemario: TopicLink[] = [
         name: "Uso de fetch para obtener datos",
         description:
           "`fetch()` permite realizar peticiones HTTP para consumir datos desde un servidor o API. En este caso, usaremos la API de *The Simpsons* para obtener frases e imágenes de los personajes más icónicos de Springfield.",
-        urlImage: "NotFound",
+        urlImage:
+          "https://i.pinimg.com/736x/0f/89/6a/0f896a83d88514f208c116e22c93d3fd.jpg",
       },
       {
         name: "Qué es una API REST?",
@@ -141,8 +184,7 @@ export const infoTemario: TopicLink[] = [
         name: "Ejemplo de uso práctico",
         description:
           "Imagina un componente llamado `SimpsonCard` que muestre la imagen, el nombre y la frase del personaje actual. Cada vez que el usuario haga clic en un botón, se hace un nuevo fetch para obtener otro personaje aleatorio.",
-        urlImage:
-          "https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png",
+        urlImage: "NotFound",
       },
     ],
   },
@@ -154,7 +196,8 @@ export const infoTemario: TopicLink[] = [
         name: "¿Qué es React Router?",
         description:
           "React Router es una biblioteca que permite la navegación entre diferentes vistas o componentes sin recargar la página, creando aplicaciones SPA (Single Page Applications).",
-        urlImage: "NotFound",
+        urlImage:
+          "https://keyholesoftware.com/wp-content/uploads/React-Router.jpg",
       },
       {
         name: "Instalación y configuración",
@@ -173,6 +216,19 @@ export const infoTemario: TopicLink[] = [
         description:
           "Para moverse entre rutas, puedes usar `<Link>`, `<NavLink>` o el hook `useNavigate()` para redirigir de manera programática.",
         urlImage: "NotFound",
+      },
+    ],
+  },
+  {
+    title: "Tailwind CSS Básico",
+    link: "tailwindBasic",
+    topicsArray: [
+      {
+        name: "¿Qué es Tailwind CSS?",
+        description:
+          "Tailwind CSS es un framework de CSS utilitario que permite construir diseños personalizados directamente en el HTML mediante clases predefinidas, facilitando la creación rápida de interfaces responsivas y modernas.",
+        urlImage:
+          "https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/tailwindcss-1633184775.webp",
       },
     ],
   },
