@@ -99,7 +99,8 @@ export const infoTemario: TopicLink[] = [
         name: "¿Qué es?",
         description:
           "TypeScript es un superconjunto de JavaScript que añade tipado estático y otras características avanzadas. Permite detectar errores en tiempo de compilación y mejorar la calidad del código.",
-        urlImage: "NotFound",
+        urlImage:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
       },
       {
         name: "Tipos de datos",
@@ -123,7 +124,7 @@ export const infoTemario: TopicLink[] = [
         name: "Manejo de estados en React",
         description:
           "El estado es la memoria interna de un componente. Permite manejar datos que cambian con el tiempo y actualizar la interfaz automáticamente cuando cambian.",
-        urlImage: "NotFound",
+        urlImage: "https://miro.medium.com/1*-Ijet6kVJqGgul6adezDLQ.png",
       },
       {
         name: "Hook useState",
