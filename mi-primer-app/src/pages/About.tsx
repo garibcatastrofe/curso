@@ -1,7 +1,7 @@
 import { Card } from "../components/Presentation/Card";
 
 import ivan from "../assets/CarlosIvan.png";
-import ram from "../assets/ram.jpg";
+import ram from "../assets/ramses.png";
 
 export function About() {
   return (
